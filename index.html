@@ -3,26 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Landing page</title>
+    <link rel="stylesheet" href="/styles/main.css">
+
 </head>
 <body>
-    <div class="header">
-        <img src="" alt="logo">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact us</a></li>
-        </ul>
-    </div>
-    <div class="main">
-        <h1>This is my website</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nisi perferendis, dignissimos obcaecati tenetur voluptas, ratione, sit possimus tempora eveniet ut sequi tempore consequatur doloribus harum rerum dicta. Excepturi, quibusdam.</p>
-        <button class="signup"></button>
-        <img src="" alt="main_img">
-    </div>
-    <div class="">
+    <header>
+        <div class="inner">
+            <h1 class="logo">JAPAN</h1>
+            <ul class="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Locations</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="welcome">
+            <div class="inner">
+                <div class="welcome-content">
+                        <div class="left-welcome">
+                            <h1>Welcome to Japan!</h1>
+                            <p>We’re thrilled to have you here as you embark on a virtual journey through the beauty and culture of Japan. There's so much to explore!</p>
+                            <button class="signup_button" type="button">Find out more</button>
+                        </div>
+                        <div class="right-welcome">
+                            <img src="/img/sakura.jpg" alt="">
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards">
+            <div class="inner">
+                <h2>Our Locations</h2>
+                <div class="card_container">
 
-    </div>
+                    <div class="card">
+                        <img src="/img/house.jpg" alt="flower">
+                        <p>Traditional Japanese room with tatami mats and a serene garden view.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/img/village.jpg" alt="flower">
+                        <p>A historic mountain village with stone streets and scenic valley views.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/img/temple.jpg" alt="flower">
+                        <p>Kyoto’s iconic pagoda, beautifully set against lush hills.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/img/mountain.jpg" alt="flower">
+                        <p>Stunning view of Mount Fuji with a traditional pagoda in the foreground.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/img/winter.jpg" alt="flower">
+                        <p>Peaceful temple garden covered in snow during winter.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/img/lights.jpg" alt="flower">
+                        <p>Lively night market street, illuminated by lanterns and filled with street food.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="quote">
+            <div class="inner">
+                <div class="quote_container">
+                    <p>"In Japan, I saw a place where beauty lives in the everyday. Where a single cherry blossom falling on a stone can stir the heart, and the sound of a temple bell echoes through the soul."</p>
+                    <p class="quote_author">— Kenji Miyazawa</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <div class="contact_form">
+                    <div class="contact_container">
+                        <div class="left-form">
+                            <h2>Your adventure awaits! Join us and explore Japan like never before!</h2>
+                            <p>Sign up now to access exclusive content, travel tips, and more!</p>
+                        </div>
+                        <div class="right-form">
+                            <button type="button" class="contact_button">SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="inner">
+            <h2>Visit Japan in 2024</h2>
+        </div>
+    </footer>
 </body>
 </html>
